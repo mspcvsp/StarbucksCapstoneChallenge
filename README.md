@@ -16,9 +16,9 @@ The problem that I chose to solve is to build a model that predicts whether a cu
 ## Python Libraries Used
 -[Python Data Analysis Library](https://pandas.pydata.org/)  
 -[Numpy](http://www.numpy.org/)  
--[Matplotlib](https://matplotlib.org/)
+-[Matplotlib](https://matplotlib.org/)  
 -[seaborn: Statistical Data Visualization](https://seaborn.pydata.org/)  
 -[re: Regular expression operations](https://docs.python.org/3/library/re.html)  
--[os — Miscellaneous operating system interfaces](https://docs.python.org/3/library/os.html)
+-[os — Miscellaneous operating system interfaces](https://docs.python.org/3/library/os.html)  
 -[scikit-learn: Machine Learning in Python](https://scikit-learn.org/stable/)  
--[Joblib: running Python functions as pipeline jobs](https://joblib.readthedocs.io/en/latest/)
+-[Joblib: running Python functions as pipeline jobs](https://joblib.readthedocs.io/en/latest/)  
