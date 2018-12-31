@@ -530,7 +530,7 @@ def create_combined_records(customer_id,
         cur_offer_successful =\
             select_offer_completed.sum() > 0 and select_offer_viewed.sum() > 0
 
-        # Select customer transcations that occured within the current offer
+        # Select customer transcations that occurred within the current offer
         # valid time window
         cur_offer_transactions = customer_transaction_data[select_transaction]
 
