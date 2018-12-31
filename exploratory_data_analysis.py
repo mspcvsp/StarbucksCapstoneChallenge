@@ -589,7 +589,7 @@ def compute_average_age(customer_agerange,
                     successful
 
     OUTPUT:
-        average_income: Average customer age
+        average_age: Average customer age
     """
     select_data = customer_agerange['successful'] == successful
     

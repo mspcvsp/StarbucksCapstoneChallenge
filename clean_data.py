@@ -1,15 +1,15 @@
 """ Creates an analytic dataset from the Starbucks Capstone challenge 
 data files:
 
-* portfolio.json - containing offer ids and meta data about each offer
-                   (duration, type, etc.)
+* portfolio.json - contains offer ids and meta data (duration, type, etc.)
 
     * id (string) - offer id
-    * offer_type (string) - type of offer ie BOGO, discount, informational
+    * offer_type (string) - string that describes the offer type
     * difficulty (int) - minimum a customer has to spend to complete an offer
     * reward (int) - reward given for completing an offer
-    * duration (int) - Offer duration [days]
-    * channels (list of strings)
+    * duration (int) - offer duration [days]
+    * channels - list of strings that describe how an offer is communicated
+                 to a customer
 
 * profile.json - demographic data for each customer
     * age (int) - age of the customer 
@@ -223,8 +223,6 @@ def clean_profile(data_dir = "./data"):
     profile['membershipstartyear'] =\
         profile['became_member_on'].apply(lambda elem: elem.year)
 
-    start_year_histogram = profile['membershipstartyear'].value_counts()
-
     membershipstartyear_df = pd.get_dummies(profile['membershipstartyear'])
     column_ordering.extend(membershipstartyear_df.columns.values)
 
@@ -362,8 +360,8 @@ def create_offeranalysis_dataset(profile,
     """ Creates an analytic dataset from the following Starbucks challenge 
     datasets:
 
-    * portfolio.json - containing offer ids and meta data about each offer
-                       (duration, type, etc.)
+    * portfolio.json - Contains offer ids and meta data (duration, type,
+                       etc.)
 
     * profile.json - demographic data for each customer
 
@@ -374,8 +372,7 @@ def create_offeranalysis_dataset(profile,
         profile: DataFrame that contains demographic data for each 
                  customer
 
-        portfolio: DataFrame containing offer ids and meta data about 
-                   each offer (duration, type, etc.)
+        portfolio: Contains offer ids and meta data (duration, type, etc.)
 
         offer_data: DataFrame that describes customer offer data
 
