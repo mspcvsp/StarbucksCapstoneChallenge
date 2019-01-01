@@ -40,7 +40,7 @@ The test data set accuracy of 0.736 and F1-score of 0.727 suggests that the rand
     4. Customer income  
     5. Whether a customer created an account on the Starbucks rewards mobile application in 2018  
     
-Since the top three features are associated with an customer offer, it may be possible to improve the performance of a random forest model by creating features that describe an offer's success rate as a function of offer difficulty, duration, and reward. This increase in the training data's dimension should provide a random forest classifier the opportunity to construct a better decision boundary that separates successful and unsuccessful customer offers.
+Since the top three features are associated with an customer offer, it may be possible to improve the performance of a random forest model by creating features that describe an offer's success rate as a function of offer difficulty, duration, and reward. These additional features should provide a random forest classifier the opportunity to construct a better decision boundary that separates successful and unsuccessful customer offers.
   
 ## Files  
 - Starbucks_Capstone_notebook.ipynb  
