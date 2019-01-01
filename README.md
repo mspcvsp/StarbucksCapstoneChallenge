@@ -37,5 +37,7 @@ The problem that I chose to solve is to build a model that predicts whether a cu
 - [Python to print out status bar and percentage](https://stackoverflow.com/questions/3002085/python-to-print-out-status-bar-and-percentage)  
 - [Progress bar introduction](https://progressbar-2.readthedocs.io/en/latest/index.html#introduction)  
 - [Progress bar documentation](https://progressbar-2.readthedocs.io/en/latest/progressbar.bar.html)  
-
-
+- [Reversing one hot encoding in pandas](https://stackoverflow.com/questions/38334296/reversing-one-hot-encoding-in-pandas)  
+- [If else in a list comprehension](https://stackoverflow.com/questions/4406389/if-else-in-a-list-comprehension)  
+- [Pandas DataFrame groupby two columns and get counts](https://stackoverflow.com/questions/17679089/pandas-dataframe-groupby-two-columns-and-get-counts)  
+- [Converting a pandas groupby object to DataFrame](https://stackoverflow.com/questions/10373660/converting-a-pandas-groupby-object-to-dataframe)  
