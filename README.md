@@ -33,11 +33,13 @@ The problem that I chose to solve was to build a model that predicts whether a c
 The test data set accuracy of 0.736 and F1-score of 0.727 suggests that the random forest model that I constructed did not [overfit the training data](https://elitedatascience.com/overfitting-in-machine-learning).  
 
 "[Feature importance](https://towardsdatascience.com/running-random-forests-inspect-the-feature-importances-with-this-code-2b00dd72b92e)" refers to a numerical value that describes a feature's contribution to building a model that maximizes its evaluation metric. A random forests classifier is an example of a model that estimates feature importance during training. My analysis of the Starbucks Capstone Challenge customer offer effectiveness training data suggests that the top five features based on their importance are:  
+  
     1. Offer difficulty (how much money a customer must spend to complete an offer)  
     2. Offer duration   
     3. Offer reward  
     4. Customer income  
     5. Whether a customer created an account on the Starbucks rewards mobile application in 2018  
+    
 Since the top three features are associated with an customer offer, it may be possible to improve the performance of a random forest model by creating features that describe an offer's success rate as a function of offer difficulty, duration, and reward. This increase in the training data's dimension should provide a random forest classifier the opportunity to construct a better decision boundary that separates successful and unsuccessful customer offers.
   
 ## Files  
