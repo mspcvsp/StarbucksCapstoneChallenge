@@ -81,7 +81,7 @@ Since the top three features are associated with an customer offer, it may be po
 - [Random forest algorithm](https://towardsdatascience.com/the-random-forest-algorithm-d457d499ffcd)  
 - [Gradient boosting algorithm](https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/)  
 - [Multi label binarizer](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MultiLabelBinarizer.html#sklearn.preprocessing.MultiLabelBinarizer)  
-- [Why one hot encode data in machine learning](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)  
+- [Why one hot encode data in machine learning?](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)  
 - [Using categorical data with one hot encoding](https://www.kaggle.com/dansbecker/using-categorical-data-with-one-hot-encoding)  
 - [Is there a rule-of-thumb for how to divide a dataset into training and validation sets?](https://stackoverflow.com/questions/13610074/is-there-a-rule-of-thumb-for-how-to-divide-a-dataset-into-training-and-validatio)  
 - [The use of feature scaling in scikit-learn](https://stackoverflow.com/questions/51660001/the-use-of-feature-scaling-in-scikit-learn)  
