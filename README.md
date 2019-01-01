@@ -20,3 +20,22 @@ The problem that I chose to solve is to build a model that predicts whether a cu
 -[os — Miscellaneous operating system interfaces](https://docs.python.org/3/library/os.html)  
 -[scikit-learn: Machine Learning in Python](https://scikit-learn.org/stable/)  
 -[Joblib: running Python functions as pipeline jobs](https://joblib.readthedocs.io/en/latest/)  
+  
+## References
+- [Analytic dataset definition](https://github.com/jtleek/datasharing)
+- [Set order of columns in pandas DataFrame](https://stackoverflow.com/questions/41968732/set-order-of-columns-in-pandas-dataframe)  
+- [Python pandas selecting rows whose column value is null none nan](https://stackoverflow.com/questions/40245507/python-pandas-selecting-rows-whose-column-value-is-null-none-nan)  
+- [scikit-learn MultiLabelBinarizer](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MultiLabelBinarizer.html#sklearn.preprocessing.MultiLabelBinarizer)  
+- [Python round up to the nearest ten](https://stackoverflow.com/questions/26454649/python-round-up-to-the-nearest-ten)  
+- [datetime strptime in Python](https://stackoverflow.com/questions/44596077/datetime-strptime-in-python)  
+- [How to match exact multiple strings in Python](https://stackoverflow.com/questions/4953272/how-to-match-exact-multiple-strings-in-python)
+- [How to determine a Python variable's type](https://stackoverflow.com/questions/402504/how-to-determine-a-python-variables-type)
+- [Pandas DataFrame settingwithcopywarning a value is trying to be set on a copy](https://stackoverflow.com/questions/49728421/pandas-dataframe-settingwithcopywarning-a-value-is-trying-to-be-set-on-a-copy)  
+- [Should binary features be one hot encoded](https://stackoverflow.com/questions/43515877/should-binary-features-be-one-hot-encoded)  
+- [Select pandas DataFrame rows and columns using iloc, loc and ix](https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/)  
+- [Dictionaries in a single expression](https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-single-expression)  
+- [Python to print out status bar and percentage](https://stackoverflow.com/questions/3002085/python-to-print-out-status-bar-and-percentage)  
+- [Progress bar introduction](https://progressbar-2.readthedocs.io/en/latest/index.html#introduction)  
+- [Progress bar documentation](https://progressbar-2.readthedocs.io/en/latest/progressbar.bar.html)  
+
+
