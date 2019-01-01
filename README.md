@@ -12,12 +12,12 @@ This data set contains three files. The first file describes the characteristics
 The problem that I chose to solve is to build a model that predicts whether a customer will respond to an offer. My strategy for solving this problem has four steps. First, I will combine the offer portfolio, customer profile, and transaction data. Each row of this combined dataset will describe an offer's attributes, customer demographic data, and whether the offer was successful. Second, I will assess the [accuracy](https://developers.google.com/machine-learning/crash-course/classification/accuracy) and [F1-score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html) of a naive model that assumes all offers were successful. This provides me a baseline for evaluating the performance of models that I construct. Accuracy measures how well a model correctly predicts whether an offer is successful. However, if the percentage of successful or unsuccessful offers is very low, [accuracy is not a good measure of model performance](https://www.manning.com/books/practical-data-science-with-r). For this situation, evaluating a model's [precision and recall](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c) provides better insight to its performance. I chose the F1-score metric because it is "[a weighted average of the precision and recall metrics"](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html). Third, I will compare the performance of [logistic regression](https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc), [random forest](https://towardsdatascience.com/the-random-forest-algorithm-d457d499ffcd), and [gradient boosting](https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/) models. Fourth, I will refine the parameters of the model that has the highest accuracy and F1-score.  
 
 ## Results Summary
-- Model ranking based on training data accuracy
+- Model ranking based on training data [accuracy](https://www.datarobot.com/wiki/accuracy/)  
     1. RandomForestClassifier model accuracy: 0.742
     2. GradientBoostingClassifier model accuracy: 0.736
     3. LogisticRegression model accuracy: 0.722
     4. Naive predictor accuracy: 0.471
-- Model ranking based on training data F1-score
+- Model ranking based on training data [F1-score](https://en.wikipedia.org/wiki/Precision_and_recall)  
     1. RandomForestClassifier model f1-score: 0.735
     2. GradientBoostingClassifier model f1-score: 0.725
     3. LogisticRegression model f1-score: 0.716
