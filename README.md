@@ -33,7 +33,7 @@ The problem that I chose to solve is to build a model that predicts whether a cu
 - [Pandas DataFrame settingwithcopywarning a value is trying to be set on a copy](https://stackoverflow.com/questions/49728421/pandas-dataframe-settingwithcopywarning-a-value-is-trying-to-be-set-on-a-copy)  
 - [Should binary features be one hot encoded](https://stackoverflow.com/questions/43515877/should-binary-features-be-one-hot-encoded)  
 - [Select pandas DataFrame rows and columns using iloc, loc and ix](https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/)  
-- [Dictionaries in a single expression](https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-single-expression)  
+- [How to merge two dictionaries in a single expression](https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-single-expression)  
 - [Python to print out status bar and percentage](https://stackoverflow.com/questions/3002085/python-to-print-out-status-bar-and-percentage)  
 - [Progress bar introduction](https://progressbar-2.readthedocs.io/en/latest/index.html#introduction)  
 - [Progress bar documentation](https://progressbar-2.readthedocs.io/en/latest/progressbar.bar.html)  
@@ -41,3 +41,4 @@ The problem that I chose to solve is to build a model that predicts whether a cu
 - [If else in a list comprehension](https://stackoverflow.com/questions/4406389/if-else-in-a-list-comprehension)  
 - [Pandas DataFrame groupby two columns and get counts](https://stackoverflow.com/questions/17679089/pandas-dataframe-groupby-two-columns-and-get-counts)  
 - [Converting a pandas groupby object to DataFrame](https://stackoverflow.com/questions/10373660/converting-a-pandas-groupby-object-to-dataframe)  
+- [Change order of columns in stacked bar plot](https://stackoverflow.com/questions/32015669/change-order-of-columns-in-stacked-bar-plot)  
