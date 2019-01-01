@@ -145,8 +145,8 @@ def initialize_percent_success(portfolio,
                     customer offers
     
     OUTPUT:
-        percent_success: DataFrame that describes the success percentage for each
-                         offer"""
+        percent_success: DataFrame that describes the success percentage for
+                         each offer"""
     successful_count =\
         clean_data[['offerid',
                     'offersuccessful']].groupby('offerid').sum().reset_index()
@@ -688,3 +688,48 @@ def visualize_customer_statistics(cur_offer_id,
                          data=membershipstartyear)
 
     plt.tight_layout()
+
+def explore_customer_offer(offer_number,
+                           percent_success,
+                           training_data,
+                           gender_integer_map):
+    """ Builds a customer demographics visualization and computes
+    summary statistics for a specific offer
+    
+    INPUT:
+        offer_number: Integer that refers to a specific customer offer
+        
+        percent_success: DataFrame that describes the success percentage for
+                         each offer
+
+        training_data: DataFrame that stores customer demographic data
+                       for a specific offer
+                       
+        gender_integer_map: Dictionary that describes the mapping of a
+                            gender string to an integer
+
+    OUTPUT:
+        None"""
+    cur_offer_id =\
+        percent_success.iloc[offer_number]['offerid']
+
+    (customer_income,
+     customer_gender,
+     customer_agerange,
+     membershipstartyear) = select_customer_data(cur_offer_id,
+                                                 training_data,
+                                                 gender_integer_map)
+
+    print_customer_statistics(cur_offer_id,
+                              customer_income,
+                              customer_agerange)
+
+    visualize_customer_statistics(cur_offer_id,
+                                customer_income,
+                                customer_gender,
+                                customer_agerange,
+                                membershipstartyear)
+
+    print(customer_gender)
+
+    print(membershipstartyear.sort_values('membershipstartyear'))
